@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+  <body>
+    <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <div class="score-box">
+                <p id="score-number-left" class="score-number">0</p>
+            </div>
+            <div class="button-group">
+                <button id="button-1" class="button-box" onclick="incrementButton1()">+1</button>
+                <button id="button-2" class="button-box" onclick="incrementButton2()">+2</button>
+                <button id="button-3" class="button-box" onclick="incrementButton3()">+3</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>GUEST</h3>
+            <div class="score-box">
+                <p id="score-number-right" class="score-number">0</p>
+            </div>
+            <div class="button-group">
+                <button id="button-4" class="button-box" onclick="incrementButton4()">+1</button>
+                <button id="button-5" class="button-box" onclick="incrementButton5()">+2</button>
+                <button id="button-6" class="button-box" onclick="incrementButton6()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="new-game-container">
+        <button id="new-game" class="restart-button" onclick="resetGame()">New Game</button>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
